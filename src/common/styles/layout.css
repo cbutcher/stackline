@@ -1,0 +1,21 @@
+body {
+  background-color: #F6F8FA;
+  font-family: Roboto, sans-serif;
+}
+
+.Main {
+  padding: 60px 15px 30px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header {
+  background-color: #112747;
+}
+
+.Logo {
+  height: 30px;
+  margin: 15px 0 15px 20px;
+}

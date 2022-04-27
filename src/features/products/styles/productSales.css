@@ -1,0 +1,37 @@
+th, td {
+  min-width: 170px;
+}
+
+th {
+  padding: 15px 30px 15px 30px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 14px;
+  color: #112747;
+}
+
+td {
+  padding: 10px 30px 10px 30px;
+  color: #A3ADBD;
+  font-size: 14px;
+}
+
+tr {
+  border-top: #F6F8FA 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr.Ascending, tr.Descending {
+  cursor: pointer;
+}
+
+tr.Ascending > th.Sorted::after {
+  content: "\25B4";
+}
+
+tr.Descending > th.Sorted::after {
+  content: "\25BE"; 
+}
